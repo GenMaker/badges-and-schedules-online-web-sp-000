@@ -6,5 +6,5 @@ def badge_maker(array)
 end
 
 def batch_badge_creator (array)
-  
+  puts ""
 end
