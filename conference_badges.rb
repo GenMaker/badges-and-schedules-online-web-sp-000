@@ -6,6 +6,7 @@ end
 
 def batch_badge_creator(array)
   badge = array.map do |name|
-    return badge
+
   end
+  return badge
 end
