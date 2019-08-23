@@ -5,6 +5,6 @@ def badge_maker(array)
   end
 end
 
-def batch_badge_creator (new_array)
+def batch_badge_creator (array)
   
 end
