@@ -22,4 +22,7 @@ end
 return room_assignments
 end
 
-def printer()
+def printer(name,attendees)
+  badge_maker(name)
+  assign_rooms(attendees)
+end
