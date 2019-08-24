@@ -17,9 +17,7 @@ def assign_rooms(attendees)
   room_assignments=[]
   attendees.each do |attendees|
     room_assignments << "Hello,#{attendees}! You'll be assigned to room #{room}!"
-  while room > 7
     room += 1
-  end
 end
 return room_assignments
 end
