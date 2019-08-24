@@ -33,7 +33,7 @@ def printer(attendees)
 batch_badge_creator(attendees).map do |person|
   puts batch_badge_creator
   end
-assign_rooms(array).map do |person|
+assign_rooms(attendees).map do |person|
   puts assign_rooms
   end
 end
