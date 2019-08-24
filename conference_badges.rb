@@ -14,10 +14,10 @@ end
 
 def assign_rooms(array)
   rooms = 1
-  room_assignment=[]
+  room_assignments=[]
   array.each do |room|
   
-
+return room_assginments
   end
 
 end
