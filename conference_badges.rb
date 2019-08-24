@@ -20,6 +20,5 @@ def assign_rooms(attendees)
   while room > 7
     room += 1
   end
-return room_assginments
-  end
+return room_assignments
 end
