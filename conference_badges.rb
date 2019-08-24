@@ -15,7 +15,7 @@ end
 def assign_rooms(attendees)
   rooms = 1
   room_assignments=[]
-  array.each do |attendees|
+  attendees.each do |attendees|
     room_assignments << "Hello,#{attendees}! You'll be assigned to room #{room}!"
   while rooms > 7
     rooms += 1
